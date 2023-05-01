@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今まで好きだった人リスト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <!--You can't use <li> without <ul> or <ol>.-->
+            <li class="links">
+              <a href="https://misskayth11.github.io/list/">HOME</a>
+            </li>
+          <li class="links">
+            <!--Dont add a class to remove the list style.-->
+            <a href="https://misskayth11.github.io/list/new-list/">Next Page</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="container">
+    
+        <h1>今まで好きだった人リスト</h1>
+        <form action="/haha.html" id="yourname">
+          <label for="fillname"><b>あなたの名前教えてください</b></label>
+          <input type="text" id="namae" placeholder="あなたの名前">
+          <button>オッケー</button>
+        </form>
+    
+        <form action="/lists.html" id="listform">
+          <label for="personlist"><b>好きな人の名前入力してください</b></label>
+          <input type="text" id="person" placeholder="好きな人の名前" />
+          <button id="btn1">オッケー</button>
+        </form>
+        <h2 class="header">好きな人リスト！！</h2>
+        <h3>リスト作った人-<p id="listcreater"></p></h3>
+        <ol id="reallist1"></ol>
+      </body>
+      <footer>
+    
+        <div class="change">
+          <label for="changingcolors"><b>BGの色変えよう！</b></label>
+          <button id="btn2">色変える</button>
+        </div>
+        <p id="btt"><a href="#top"><strong>Back to TOP</strong></a></p>
+      </footer>
+    </div>
+     
+</body>
+<script src="main.js"></script>
+</html>

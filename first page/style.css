@@ -1,0 +1,60 @@
+
+li {
+    font-size: 120%;
+    padding: 20px;
+    font-weight: 600;
+  }
+  
+  form {
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 120%;
+  }
+  input{
+    width:250px;
+    height:27px;
+  }
+  button{
+    height:30px;
+  }
+  .links{
+    font-size: 200%;
+  }
+  
+  h1:hover{
+    color:chocolate;
+  }
+  .change {
+    text-align: center;
+  }
+  nav {
+    text-align: right;
+    
+  }
+  ul {
+    list-style: none;
+  }
+  #btt{
+    font-size: 25px;
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  a:hover{
+    color:aquamarine;
+    text-decoration: underline;
+  }
+  .container{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #yourname{
+    margin-left: 70px;
+  }
+  #listcreater{
+    display: inline;
+  }

@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    font-size: 2rem;
+   /* background-image:url(https://pjsekai.sega.jp/assets/images/special/download/virtual-bg/virtual_bg_01_unit06.png)
+*/
+background: linear-gradient(90deg,  #FF679A 10% ,#BB6588 68%,#FF7721 90%);
+}
+li{
+    list-style: none;
+    margin-top: 30px;
+}
+h1:hover,h2:hover{
+    color:#00BBDC;
+}
+a:hover{
+    color:#CCAA87;
+    text-decoration: underline;
+}
+a{ text-decoration: none;}
